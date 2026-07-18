@@ -149,9 +149,9 @@ export default function Shopping() {
             </p>
           </div>
 
-          <button onclick={() => {
+          <button onClick={() => {
             router.push("/shop");
-          }} className="rounded-xl border border-orange-500 px-6 py-3 font-semibold text-orange-500 transition hover:bg-orange-500 hover:text-white">
+          }} className="rounded-xl cursor-pointer border border-orange-500 px-6 py-3 font-semibold text-orange-500 transition hover:bg-orange-500 hover:text-white">
             View All Products
           </button>
         </div>
